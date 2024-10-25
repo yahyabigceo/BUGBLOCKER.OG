@@ -1,0 +1,404 @@
+@media screen and (max-width: 1536px) {
+  header {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .pest-imgs {
+    top: -100px;
+  }
+
+  .services-c-img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .abt-p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header-desc-wrapper .header-desc {
+    top: 0;
+  }
+
+  .pest-imgs {
+    top: -140px;
+  }
+
+  .services-c-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .services-cards .card {
+    min-height: 550px;
+  }
+
+  .abt-img {
+    width: 100%;
+  }
+
+  .slick-prev {
+    left: 20px !important;
+  }
+  .slick-next {
+    right: 20px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #desktopmenu {
+    display: none;
+  }
+
+  #mobilemenu {
+    display: none;
+  }
+
+  #navbarResponsive {
+    display: none;
+  }
+  #mobilemenu {
+    display: block;
+  }  
+  body{
+    position: relative;
+  }
+  .sticky-top{
+    z-index: 982;
+  }
+
+  .mobile-menu{
+    z-index: 1005 !important;
+  }
+
+  .mobile-nav-button{
+    z-index: 1010;
+  }
+
+  .bg-dark-overlay {
+    display: none;
+    transition:0.3s all;
+  }
+
+  .bg-dark-overlay.bg-open{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 981;    
+  }
+
+
+
+  .header-desc-wrapper .header-desc {
+    width: 100%;
+    left: 0;
+  }
+  .pg-sec {
+    padding: 60px 0;
+  }
+  .abt-img {
+    width: 50%;
+  }
+
+  .services-cards {
+    .card {
+      margin-bottom: 3em !important;
+      min-height: 450px !important;
+      //   &:last-child {
+      //     margin-bottom: 0 !important;
+      //   }
+    }
+  }
+  .abt-p {
+    padding: 10px 20px;
+  }
+
+  .sub-pg-cf .contact-form {
+    margin: 0;
+  }
+
+  .sub-pg-cta-box h1 {
+    font-size: 28px;
+  }
+
+  .cta-guy-wrapper .sub-pg-cta-box-guy img {
+    width: 170px;
+    right: 0;
+  }
+
+  .img-pest.pest-pg2 {
+    height: auto !important;
+    width: 100% !important;
+    margin: 40% auto !important;
+  }
+  .contact-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 70vh;
+  }
+  .header-desc-wrapper .header-desc {
+    top: 20% !important;
+  }
+
+  .services-cards .cards {
+    margin-bottom: 3em;
+    min-height: 400px !important;
+  }
+
+  .slick-prev {
+    left: 40px !important;
+  }
+
+  .slick-next {
+    right: 40px !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  .services-c-img {
+    height: 230px;
+    width: 100%;
+  }
+
+  .slick-prev {
+    left: 0 !important;
+  }
+
+  .slick-next {
+    right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .navbar-collapse {
+    display: none;
+  }
+
+  header.pg-sec.parallax-window.header-img {
+    background-position: 75% !important;
+  }
+
+  .header-desc-wrapper h1 {
+    font-size: 38px;
+    line-height: 52px;
+  }
+  .services-cards .card {
+    min-height: 450px;
+  }
+  .cta-btn,
+  .cta-btn.sched-btn {
+    width: 100% !important;
+  }
+  .sec-desc h1 {
+    font-size: 26px !important;
+  }
+  .img-pest.pest-pg2 {
+    height: auto !important;
+    width: 70% !important;
+    margin: 10% auto !important;
+  }
+  .header-desc.sub-pg-header-title.spht2 {
+    top: 12% !important;
+  }
+  .sub-pg-cta-box {
+    min-height: 500px;
+    background-position: left;
+  }
+  .sub-pg-cta-box-desc {
+    text-align: center;
+    margin-left: 0;
+    p {
+      margin-top: 10px;
+      font-size: $text-size - 2px;
+    }
+  }
+  .pest-box {
+    padding: 20px 0 !important;
+    .row {
+      margin-bottom: 0 !important;
+    }
+    .pest-bg {
+      bottom: 7%;
+    }
+  }
+  .pest-desc {
+    margin: 2rem 0 !important;
+  }
+  #bird,
+  #rodents,
+  #possums {
+    bottom: 5%;
+  }
+  .flying-insect-sec {
+    padding-bottom: 0 !important;
+  }
+
+  .cta-guy-wrapper .sub-pg-cta-box-guy img {
+    width: 150px;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+  }
+
+  //read more styles mobile
+  .readmore {
+    display: block;
+    .btn {
+      width: 60% !important;
+      &:before {
+        content: "\f107";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: $white;
+        margin-right: 10px;
+        position: absolute;
+        left: 20%;
+        -webkit-animation: downangle 0.7s linear infinite alternate;
+        animation: downangle 0.7s linear infinite alternate;
+      }
+    }
+  }
+
+  @keyframes downangle {
+    from {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    to {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+    }
+  }
+
+  .crawling-insect-sec {
+    max-height: 1674px;
+    position: relative;
+    // padding: 20px;
+    overflow: hidden;
+  }
+
+  .crawling-insect-sec .readmore {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .mobile-menu {
+    width: 300px;
+  }
+
+  .header-desc-wrapper .header-desc {
+    top: 20%;
+  }
+
+  .header-desc-wrapper .header-desc.sub-pg-header-title {
+    top: 30%;
+  }
+
+  header {
+    height: 80vh;
+  }
+
+  #services-sec {
+    height: 200px;
+  }
+
+  .slick-prev {
+    left: 60px !important;
+  }
+
+  .slick-next {
+    right: 60px !important;
+  }
+
+  .pest-service {
+    .slick-prev {
+      left: 20px !important;
+    }
+
+    .slick-next {
+      right: 20px !important;
+    }
+  }
+
+  footer .logo {
+    margin-bottom: 1rem;
+  }
+
+  footer .footer-title {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mobile-menu {
+    max-width: 300px !important;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .header-desc-wrapper .header-desc {
+    top: 28% !important;
+  }
+
+  .header-desc-wrapper h1 {
+    font-size: 34px;
+    line-height: 48px;
+    padding: 0 10px;
+  }
+
+  .cta-btn.sched-btn{
+    font-size: 16px !important;
+    padding: 12px !important;
+  }
+
+  .slick-prev {
+    left: 40px !important;
+  }
+
+  .slick-next {
+    right: 40px !important;
+  }
+
+  .crawling-insect-sec {
+    max-height: 1662px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .mobile-menu {
+    max-width: 285px !important;
+  }
+
+  .header-desc-wrapper h1 {
+    padding: 0 24px;
+  }
+
+  .slick-next {
+    right: 30px !important;
+  }
+
+  .slick-prev {
+    left: 30px !important;
+  }
+}

@@ -1,0 +1,28 @@
+.sub-pg{
+    height: 400px;
+}
+
+.abt-img.abt-sec{
+    width:100%;
+    img{
+        width:100%;
+    }
+}
+
+.abt-p {
+    padding: 6% 0;
+}
+
+.pg-sec.gray-bg{
+    background: $gray;
+}
+.sub-pg-cf{
+    text-align: center;
+    p{
+        margin-bottom: 0;
+    }
+
+    .contact-form{
+        margin: 0 20%;
+    }
+}

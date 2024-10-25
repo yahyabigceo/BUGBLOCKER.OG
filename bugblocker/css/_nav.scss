@@ -1,0 +1,21 @@
+#mobilemenu{
+    display: none;
+}
+.navbar{
+    padding: 1.5rem 1rem;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    // overflow: hidden !important;
+    // width: 100% !important;
+}
+
+.navbar-nav .nav-link{
+    font-weight: 600;
+    font-size: $text-size;
+    color: $black;
+    margin: 0 20px;
+    transition: 0.3s ease-in-out;    
+    &:hover{
+        color: $red;
+    }
+}
